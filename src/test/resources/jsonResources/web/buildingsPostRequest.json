@@ -1,0 +1,14 @@
+{
+	"address": "CreamsApiTestingBuildingAddress",
+	"alertDaysNum": 5,
+	"areaId": 1203,
+	"areaSize": 50000,
+	"caculatePriceTwoPoint": true,
+	"dayNumberPerYear": 365,
+	"image": "/2017/01/1z73mhkrjeknbdn76ldb0ous8n9zv2om.png",
+	"name": "CreamsApiTestingBuilding",
+	"priceUnit": "D",
+	"promotionTel": "promotionTel",
+	"receivableDayNumAhead": 0,
+	"rentalFormula": "DAYS"
+}

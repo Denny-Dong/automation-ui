@@ -1,0 +1,200 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"definitions": {
+		
+	},
+	"id": "http://example.com/example.json",
+	"properties": {
+		"items": {
+			"id": "/properties/items",
+			"items": {
+				"id": "/properties/items/items",
+				"properties": {
+					"address": {
+						"default": "新东方国际科技中心",
+						"description": "An explanation about the purpose of this instance.",
+						"id": "/properties/items/items/properties/address",
+						"title": "The Address Schema",
+						"type": "string"
+					},
+					"areaId": {
+						"default": 1203,
+						"description": "An explanation about the purpose of this instance.",
+						"id": "/properties/items/items/properties/areaId",
+						"title": "The Areaid Schema",
+						"type": "integer"
+					},
+					"areaSizeLimit": {
+						"default": 30000,
+						"description": "An explanation about the purpose of this instance.",
+						"id": "/properties/items/items/properties/areaSizeLimit",
+						"title": "The Areasizelimit Schema",
+						"type": "integer"
+					},
+					"buildingLimit": {
+						"default": 100,
+						"description": "An explanation about the purpose of this instance.",
+						"id": "/properties/items/items/properties/buildingLimit",
+						"title": "The Buildinglimit Schema",
+						"type": "integer"
+					},
+					"cityId": {
+						"default": 121,
+						"description": "An explanation about the purpose of this instance.",
+						"id": "/properties/items/items/properties/cityId",
+						"title": "The Cityid Schema",
+						"type": "integer"
+					},
+					"cityName": {
+						"default": "杭州市",
+						"description": "An explanation about the purpose of this instance.",
+						"id": "/properties/items/items/properties/cityName",
+						"title": "The Cityname Schema",
+						"type": "string"
+					},
+					"companyName": {
+						"default": "搜办楼宇运营",
+						"description": "An explanation about the purpose of this instance.",
+						"id": "/properties/items/items/properties/companyName",
+						"title": "The Companyname Schema",
+						"type": "string"
+					},
+					"contactName": {
+						"default": "技术测试帐号",
+						"description": "An explanation about the purpose of this instance.",
+						"id": "/properties/items/items/properties/contactName",
+						"title": "The Contactname Schema",
+						"type": "string"
+					},
+					"contactTel": {
+						"default": "18667047809",
+						"description": "An explanation about the purpose of this instance.",
+						"id": "/properties/items/items/properties/contactTel",
+						"title": "The Contacttel Schema",
+						"type": "string"
+					},
+					"currentAreaSize": {
+						"default": 1091831.7,
+						"description": "An explanation about the purpose of this instance.",
+						"id": "/properties/items/items/properties/currentAreaSize",
+						"title": "The Currentareasize Schema",
+						"type": "number"
+					},
+					"customerActive": {
+						"default": true,
+						"description": "An explanation about the purpose of this instance.",
+						"id": "/properties/items/items/properties/customerActive",
+						"title": "The Customeractive Schema",
+						"type": "boolean"
+					},
+					"customerId": {
+						"default": 1,
+						"description": "An explanation about the purpose of this instance.",
+						"id": "/properties/items/items/properties/customerId",
+						"title": "The Customerid Schema",
+						"type": "integer"
+					},
+					"dateCreate": {
+						"default": 1473735277000,
+						"description": "An explanation about the purpose of this instance.",
+						"id": "/properties/items/items/properties/dateCreate",
+						"title": "The Datecreate Schema",
+						"type": "integer"
+					},
+					"endDate": {
+						"default": 1524279704000,
+						"description": "An explanation about the purpose of this instance.",
+						"id": "/properties/items/items/properties/endDate",
+						"title": "The Enddate Schema",
+						"type": "integer"
+					},
+					"followId": {
+						"default": 182,
+						"description": "An explanation about the purpose of this instance.",
+						"id": "/properties/items/items/properties/followId",
+						"title": "The Followid Schema",
+						"type": "integer"
+					},
+					"followerName": {
+						"default": "admin",
+						"description": "An explanation about the purpose of this instance.",
+						"id": "/properties/items/items/properties/followerName",
+						"title": "The Followername Schema",
+						"type": "string"
+					},
+					"loginCount": {
+						"default": 31887,
+						"description": "An explanation about the purpose of this instance.",
+						"id": "/properties/items/items/properties/loginCount",
+						"title": "The Logincount Schema",
+						"type": "integer"
+					},
+					"masterEmail": {
+						"default": "soubantest@qq.com",
+						"description": "An explanation about the purpose of this instance.",
+						"id": "/properties/items/items/properties/masterEmail",
+						"title": "The Masteremail Schema",
+						"type": "string"
+					},
+					"masterUserId": {
+						"default": 36,
+						"description": "An explanation about the purpose of this instance.",
+						"id": "/properties/items/items/properties/masterUserId",
+						"title": "The Masteruserid Schema",
+						"type": "integer"
+					},
+					"remark": {
+						"description": "An explanation about the purpose of this instance.",
+						"id": "/properties/items/items/properties/remark",
+						"title": "The Remark Schema",
+						"type": "null"
+					},
+					"useDate": {
+						"default": 1492743704000,
+						"description": "An explanation about the purpose of this instance.",
+						"id": "/properties/items/items/properties/useDate",
+						"title": "The Usedate Schema",
+						"type": "integer"
+					}
+				},
+				"required": [
+					"currentAreaSize",
+					"followId",
+					"areaId",
+					"followerName",
+					"areaSizeLimit",
+					"companyName",
+					"dateCreate",
+					"cityName",
+					"remark",
+					"endDate",
+					"masterEmail",
+					"cityId",
+					"contactTel",
+					"loginCount",
+					"contactName",
+					"address",
+					"customerActive",
+					"buildingLimit",
+					"useDate",
+					"masterUserId",
+					"customerId"
+				],
+				"type": "object"
+			},
+			"type": "array"
+		},
+		"totalCount": {
+			"default": 1,
+			"description": "An explanation about the purpose of this instance.",
+			"id": "/properties/totalCount",
+			"title": "The Totalcount Schema",
+			"type": "integer"
+		}
+	},
+	"required": [
+		"items",
+		"totalCount"
+	],
+	"type": "object"
+}

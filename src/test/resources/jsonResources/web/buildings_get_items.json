@@ -1,0 +1,494 @@
+{
+	"$id": "http://example.com/example.json",
+	"type": "object",
+	"definitions": {
+		
+	},
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"properties": {
+		"id": {
+			"$id": "/properties/id",
+			"type": "integer",
+			"title": "The Id Schema ",
+			"default": 0,
+			"examples": [
+				3585
+			]
+		},
+		"name": {
+			"$id": "/properties/name",
+			"type": "string",
+			"title": "The Name Schema ",
+			"default": "",
+			"examples": [
+				"测试大楼"
+			]
+		},
+		"imageUrl": {
+			"$id": "/properties/imageUrl",
+			"type": "string",
+			"title": "The Imageurl Schema ",
+			"default": "",
+			"examples": [
+				"/2018/02/s4ql018avbfwkl14z3n37p84luoasozy.jpg"
+			]
+		},
+		"address": {
+			"$id": "/properties/address",
+			"type": "string",
+			"title": "The Address Schema ",
+			"default": "",
+			"examples": [
+				"怀德街南门"
+			]
+		},
+		"promotionTel": {
+			"$id": "/properties/promotionTel",
+			"type": "string",
+			"title": "The Promotiontel Schema ",
+			"default": "",
+			"examples": [
+				"8200222"
+			]
+		},
+		"alertDaysNum": {
+			"$id": "/properties/alertDaysNum",
+			"type": "integer",
+			"title": "The Alertdaysnum Schema ",
+			"default": 0,
+			"examples": [
+				10
+			]
+		},
+		"province": {
+			"$id": "/properties/province",
+			"type": "object",
+			"properties": {
+				"id": {
+					"$id": "/properties/province/properties/id",
+					"type": "integer",
+					"title": "The Id Schema ",
+					"default": 0,
+					"examples": [
+						11
+					]
+				},
+				"name": {
+					"$id": "/properties/province/properties/name",
+					"type": "string",
+					"title": "The Name Schema ",
+					"default": "",
+					"examples": [
+						"浙江省"
+					]
+				}
+			}
+		},
+		"city": {
+			"$id": "/properties/city",
+			"type": "object",
+			"properties": {
+				"id": {
+					"$id": "/properties/city/properties/id",
+					"type": "integer",
+					"title": "The Id Schema ",
+					"default": 0,
+					"examples": [
+						121
+					]
+				},
+				"name": {
+					"$id": "/properties/city/properties/name",
+					"type": "string",
+					"title": "The Name Schema ",
+					"default": "",
+					"examples": [
+						"杭州市"
+					]
+				}
+			}
+		},
+		"area": {
+			"$id": "/properties/area",
+			"type": "object",
+			"properties": {
+				"id": {
+					"$id": "/properties/area/properties/id",
+					"type": "integer",
+					"title": "The Id Schema ",
+					"default": 0,
+					"examples": [
+						1203
+					]
+				},
+				"name": {
+					"$id": "/properties/area/properties/name",
+					"type": "string",
+					"title": "The Name Schema ",
+					"default": "",
+					"examples": [
+						"滨江区"
+					]
+				}
+			}
+		},
+		"owner": {
+			"$id": "/properties/owner",
+			"type": "null",
+			"title": "The Owner Schema ",
+			"default": null,
+			"examples": [
+				null
+			]
+		},
+		"constructionArea": {
+			"$id": "/properties/constructionArea",
+			"type": "null",
+			"title": "The Constructionarea Schema ",
+			"default": null,
+			"examples": [
+				null
+			]
+		},
+		"landArea": {
+			"$id": "/properties/landArea",
+			"type": "null",
+			"title": "The Landarea Schema ",
+			"default": null,
+			"examples": [
+				null
+			]
+		},
+		"purpose": {
+			"$id": "/properties/purpose",
+			"type": "null",
+			"title": "The Purpose Schema ",
+			"default": null,
+			"examples": [
+				null
+			]
+		},
+		"buildupDate": {
+			"$id": "/properties/buildupDate",
+			"type": "string",
+			"title": "The Buildupdate Schema ",
+			"default": "",
+			"examples": [
+				"2018/02/11"
+			]
+		},
+		"buildingAreaSize": {
+			"$id": "/properties/buildingAreaSize",
+			"type": "integer",
+			"title": "The Buildingareasize Schema ",
+			"default": 0,
+			"examples": [
+				0
+			]
+		},
+		"areaSizeTotal": {
+			"$id": "/properties/areaSizeTotal",
+			"type": "integer",
+			"title": "The Areasizetotal Schema ",
+			"default": 0,
+			"examples": [
+				0
+			]
+		},
+		"contractSettings": {
+			"$id": "/properties/contractSettings",
+			"type": "object",
+			"properties": {
+				"id": {
+					"$id": "/properties/contractSettings/properties/id",
+					"type": "integer",
+					"title": "The Id Schema ",
+					"default": 0,
+					"examples": [
+						8750
+					]
+				},
+				"depositUnit": {
+					"$id": "/properties/contractSettings/properties/depositUnit",
+					"type": "string",
+					"title": "The Depositunit Schema ",
+					"default": "",
+					"examples": [
+						"MONTH"
+					]
+				},
+				"calculatePrecision": {
+					"$id": "/properties/contractSettings/properties/calculatePrecision",
+					"type": "string",
+					"title": "The Calculateprecision Schema ",
+					"default": "",
+					"examples": [
+						"RESULT"
+					]
+				},
+				"calculateType": {
+					"$id": "/properties/contractSettings/properties/calculateType",
+					"type": "string",
+					"title": "The Calculatetype Schema ",
+					"default": "",
+					"examples": [
+						"DAY"
+					]
+				},
+				"dayNumberPerYear": {
+					"$id": "/properties/contractSettings/properties/dayNumberPerYear",
+					"type": "null",
+					"title": "The Daynumberperyear Schema ",
+					"default": null,
+					"examples": [
+						null
+					]
+				},
+				"intervalMonth": {
+					"$id": "/properties/contractSettings/properties/intervalMonth",
+					"type": "null",
+					"title": "The Intervalmonth Schema ",
+					"default": null,
+					"examples": [
+						null
+					]
+				},
+				"payInAdvanceDay": {
+					"$id": "/properties/contractSettings/properties/payInAdvanceDay",
+					"type": "null",
+					"title": "The Payinadvanceday Schema ",
+					"default": null,
+					"examples": [
+						null
+					]
+				},
+				"payInAdvanceType": {
+					"$id": "/properties/contractSettings/properties/payInAdvanceType",
+					"type": "string",
+					"title": "The Payinadvancetype Schema ",
+					"default": "",
+					"examples": [
+						"DAY"
+					]
+				},
+				"priceUnit": {
+					"$id": "/properties/contractSettings/properties/priceUnit",
+					"type": "string",
+					"title": "The Priceunit Schema ",
+					"default": "",
+					"examples": [
+						"D"
+					]
+				},
+				"contractNumberPrefix": {
+					"$id": "/properties/contractSettings/properties/contractNumberPrefix",
+					"type": "string",
+					"title": "The Contractnumberprefix Schema ",
+					"default": "",
+					"examples": [
+						"123456-yyyy"
+					]
+				},
+				"spaceUnit": {
+					"$id": "/properties/contractSettings/properties/spaceUnit",
+					"type": "string",
+					"title": "The Spaceunit Schema ",
+					"default": "",
+					"examples": [
+						"P"
+					]
+				},
+				"unitPricePrecision": {
+					"$id": "/properties/contractSettings/properties/unitPricePrecision",
+					"type": "null",
+					"title": "The Unitpriceprecision Schema ",
+					"default": null,
+					"examples": [
+						null
+					]
+				},
+				"openApproval": {
+					"$id": "/properties/contractSettings/properties/openApproval",
+					"type": "boolean",
+					"title": "The Openapproval Schema ",
+					"default": false,
+					"examples": [
+						true
+					]
+				}
+			}
+		},
+		"propertySettings": {
+			"$id": "/properties/propertySettings",
+			"type": "object",
+			"properties": {
+				"propertyType": {
+					"$id": "/properties/propertySettings/properties/propertyType",
+					"type": "string",
+					"title": "The Propertytype Schema ",
+					"default": "",
+					"examples": [
+						"OFFICE"
+					]
+				},
+				"payType": {
+					"$id": "/properties/propertySettings/properties/payType",
+					"type": "null",
+					"title": "The Paytype Schema ",
+					"default": null,
+					"examples": [
+						null
+					]
+				},
+				"propertyFee": {
+					"$id": "/properties/propertySettings/properties/propertyFee",
+					"type": "null",
+					"title": "The Propertyfee Schema ",
+					"default": null,
+					"examples": [
+						null
+					]
+				},
+				"propertyUnit": {
+					"$id": "/properties/propertySettings/properties/propertyUnit",
+					"type": "string",
+					"title": "The Propertyunit Schema ",
+					"default": "",
+					"examples": [
+						"D"
+					]
+				},
+				"propertyCalculateType": {
+					"$id": "/properties/propertySettings/properties/propertyCalculateType",
+					"type": "string",
+					"title": "The Propertycalculatetype Schema ",
+					"default": "",
+					"examples": [
+						"MONTH"
+					]
+				},
+				"energyCalculateType": {
+					"$id": "/properties/propertySettings/properties/energyCalculateType",
+					"type": "string",
+					"title": "The Energycalculatetype Schema ",
+					"default": "",
+					"examples": [
+						"MONTH"
+					]
+				},
+				"dayNumberPerYear": {
+					"$id": "/properties/propertySettings/properties/dayNumberPerYear",
+					"type": "integer",
+					"title": "The Daynumberperyear Schema ",
+					"default": 0,
+					"examples": [
+						365
+					]
+				},
+				"payInAdvanceDay": {
+					"$id": "/properties/propertySettings/properties/payInAdvanceDay",
+					"type": "null",
+					"title": "The Payinadvanceday Schema ",
+					"default": null,
+					"examples": [
+						null
+					]
+				},
+				"payInAdvanceType": {
+					"$id": "/properties/propertySettings/properties/payInAdvanceType",
+					"type": "string",
+					"title": "The Payinadvancetype Schema ",
+					"default": "",
+					"examples": [
+						"SPECIFY"
+					]
+				},
+				"depositUnit": {
+					"$id": "/properties/propertySettings/properties/depositUnit",
+					"type": "string",
+					"title": "The Depositunit Schema ",
+					"default": "",
+					"examples": [
+						"MONEY"
+					]
+				},
+				"energyPayType": {
+					"$id": "/properties/propertySettings/properties/energyPayType",
+					"type": "null",
+					"title": "The Energypaytype Schema ",
+					"default": null,
+					"examples": [
+						null
+					]
+				},
+				"energyFee": {
+					"$id": "/properties/propertySettings/properties/energyFee",
+					"type": "null",
+					"title": "The Energyfee Schema ",
+					"default": null,
+					"examples": [
+						null
+					]
+				},
+				"energyUnit": {
+					"$id": "/properties/propertySettings/properties/energyUnit",
+					"type": "string",
+					"title": "The Energyunit Schema ",
+					"default": "",
+					"examples": [
+						"D"
+					]
+				},
+				"energyPayInAdvanceDay": {
+					"$id": "/properties/propertySettings/properties/energyPayInAdvanceDay",
+					"type": "null",
+					"title": "The Energypayinadvanceday Schema ",
+					"default": null,
+					"examples": [
+						null
+					]
+				},
+				"energyPayInAdvanceType": {
+					"$id": "/properties/propertySettings/properties/energyPayInAdvanceType",
+					"type": "string",
+					"title": "The Energypayinadvancetype Schema ",
+					"default": "",
+					"examples": [
+						"SPECIFY"
+					]
+				},
+				"calculatePrecision": {
+					"$id": "/properties/propertySettings/properties/calculatePrecision",
+					"type": "string",
+					"title": "The Calculateprecision Schema ",
+					"default": "",
+					"examples": [
+						"RESULT"
+					]
+				},
+				"unitPricePrecision": {
+					"$id": "/properties/propertySettings/properties/unitPricePrecision",
+					"type": "integer",
+					"title": "The Unitpriceprecision Schema ",
+					"default": 0,
+					"examples": [
+						2
+					]
+				}
+			}
+		},
+		"recycleContractNo": {
+			"$id": "/properties/recycleContractNo",
+			"type": "boolean",
+			"title": "The Recyclecontractno Schema ",
+			"default": false,
+			"examples": [
+				false
+			]
+		},
+		"budgets": {
+			"$id": "/properties/budgets",
+			"type": "array"
+		}
+	}
+}

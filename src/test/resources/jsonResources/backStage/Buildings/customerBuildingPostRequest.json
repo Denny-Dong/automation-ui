@@ -1,0 +1,15 @@
+{
+	"address": "automationtestbuildingaddress",
+	"alertDaysNum": 5,
+	"areaId": 1203,
+	"areaSize": 100,
+	"caculatePriceTwoPoint": true,
+	"dayNumberPerYear": 365,
+	"image": "string",
+	"name": "automationtestbuilding",
+	"priceUnit": "D",
+	"promotionTel": "string",
+	"receivableDayNumAhead": 0,
+	"rentalFormula": "DAYS",
+	"sendSmsAuto": true
+}
